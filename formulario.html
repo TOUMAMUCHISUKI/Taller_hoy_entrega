@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario sencillo</title>
+</head>
+<body>
+  <h1>Registro</h1>
+  <form method="post">
+    <p>
+      <label for="nombre">Nombre:</label>
+      <input id="nombre" name="nombre" type="text" required>
+    </p>
+    <p>
+      <label for="usuario">Usuario:</label>
+      <input id="usuario" name="usuario" type="text" required>
+    </p>
+    <p>
+      <label for="correo">Correo:</label>
+      <input id="correo" name="correo" type="email" required>
+    </p>
+    <p>
+      <label for="contrasena">Contraseña:</label>
+      <input id="contrasena" name="contrasena" type="password" autocomplete="new-password" required>
+    </p>
+    <p>
+      <label for="confirmar">Confirmar contraseña:</label>
+      <input id="confirmar" name="confirmar" type="password" autocomplete="new-password" required>
+    </p>
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
