@@ -21,7 +21,7 @@ jobs:
           node-version: 22
 
       - name: Validar código HTML
-        run: 
+        run: |
           echo "Inicio de la validación"
           npx html-validator '**/*.html'
           echo "fin"
