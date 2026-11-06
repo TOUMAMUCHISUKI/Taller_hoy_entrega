@@ -23,4 +23,4 @@ jobs:
       - name: Validar código HTML
         run: |
           echo "Inicio de la validación"
-          npx html-validator "*/*.html"
+          npx html-validator "**/*.html"
